@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+h1, p , h5 {
+  font-family: serif;
+
+}
+  span {
+    font-family: "minhafont";
+    src: url("Mermaid\ Swash\ Caps.ttf");
+    color: #b7410e;
+
+}
+
+#lista {
+color: #ccd4fe;
+}
+#lista:hover {
+  background-color: #b7410e;
+}
+
+#rodape {
+  margin-bottom: 0%;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/CSS-PaginasListaCadastroEDescCEP.css" rel="stylesheet">
+    <script defer src="../JavaScript/consulta-endereco.js"></script>
+    <link rel="icon" href="../Imagens/Logo.png">
+    <title>Consulta CEP</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Consulta CEP</h2>
+        <small>Coloque seu CEP e pressione a tecla Tab para que o resultado seja mostrado.</small>
+        <form>
+            <div class="frm-row">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome">
+            </div>
+
+            <div class="frm-row">
+                <label for="e-mail">E-mail</label>
+                <input type="text" name="E-mail" id="E-mail" placeholder="Seu E-mail">
+            </div>
+
+            <div class="frm-row">
+                <label for="Senha">Senha</label>
+                <input type="password" class="password" placeholder="Digite sua senha" required id="loginSenha">
+                        
+            </div>
+
+            <div class="frm-row">
+                <label for="Confirme sua senha">Confirme sua senha</label>
+                <input type="password" class="password" placeholder="Digite sua senha novamente" required id="loginSenha">                                  
+            </div>
+
+            <div class="frm-row">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep" maxlength="8" placeholder="Digite seu CEP">
+            </div>
+
+            <div class="frm-row">
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" id="rua" placeholder="Sua rua">
+            </div>
+
+            <div class="frm-row">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro" placeholder="Seu bairro">
+            </div>
+
+            <div class="frm-row">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Sua cidade">
+            </div>
+            
+            <div class="frm-row">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" id="estado" placeholder="Seu Estado">
+            </div>
+        </form>
+        <a href="PaginaDescCEP.html">Não sabe seu CEP? Clique aqui e descubra!</a>
+    </div>
+    <div class="background-image">
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/CSS-PaginasListaCadastroEDescCEP.css" rel="stylesheet">
+    <link rel="icon" href="../Imagens/Logo.png">
+    <script defer src="../JavaScript/consulta-cep.js"></script>
+    <title>Não sei meu CEP</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Não sei meu CEP e agora?</h2>
+        <small>Calma! Não se desespere, nos diga as informações dos campos abaixo e nós diremos qual é o seu CEP.</small>
+        <form>
+            <div class="frm-row">
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" id="rua" placeholder="Digite o nome da rua">
+            </div>
+            <div class="frm-row">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Digite a cidade">
+            </div>
+            <div class="frm-row">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" id="estado" placeholder="Digite o Estado">
+            </div>
+            <div class="frm-row">
+                <button id="btnBuscarCep" class="btn">Buscar CEP</button>
+            </div>
+        </form>
+        <ul id="listaCep"></ul>
+    </div>
+    <div class="background-image">
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    background-color: #fffafa ;
+}
+.title {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Libre Baskerville', serif;
+    color: #5b4b41 ;
+}
+
+.imagensIndex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.img {
+    padding: 5%;
+
+}
+
+.imagensIndex2 {
+    background-color: #bf795b;
+    width: 250px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    color: #ffede6;
+    margin-bottom: 8%;
+    margin-top: 4%;
+    border-radius: 10px;
+}
+
+
+.imgGit {
+    margin-bottom: 5%;
+
+}
+
+.imgIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+#pe {
+    font-size: 14px;
+    align-items: justify;
+    line-height: 1.5s;
+    text-indent: 2em;
+}
